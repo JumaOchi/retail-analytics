@@ -1,0 +1,56 @@
+[0m14:45:35.376579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76c848c6e810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76c848e41970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76c8499fbbc0>]}
+
+
+============================== 14:45:35.502445 | bac972c4-5eb7-4d7f-840e-d14c062da990 ==============================
+[0m14:45:35.502445 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:45:35.503691 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'no_print': 'None', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'log_path': 'logs', 'introspect': 'True', 'indirect_selection': 'eager', 'target_path': 'None', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'printer_width': '80', 'profiles_dir': '/home/juma/.dbt', 'version_check': 'True', 'warn_error': 'None', 'debug': 'False', 'use_experimental_parser': 'False', 'static_parser': 'True', 'quiet': 'False', 'fail_fast': 'False', 'log_format': 'default', 'write_json': 'True'}
+[0m14:45:35.504815 [debug] [MainThread]: Starter project path: /home/juma/ed-hackathon1/.myenv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m14:46:04.221041 [info ] [MainThread]: Profile retail_dbt written to /home/juma/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m14:46:04.222030 [info ] [MainThread]: 
+Your new dbt project "retail_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:46:04.223111 [debug] [MainThread]: Command `dbt init` succeeded at 14:46:04.222818 after 28.94 seconds
+[0m14:46:04.224081 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76c848e41970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76c84a1f3590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76c848dea690>]}
+[0m14:46:04.224752 [debug] [MainThread]: Flushing usage events
+[0m14:46:10.799227 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m18:56:27.845657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x782015172d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x782015173b60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x782015173800>]}
+
+
+============================== 18:56:27.871314 | d3290b17-489d-4a18-860e-4dc9bfceba47 ==============================
+[0m18:56:27.871314 [info ] [MainThread]: Running with dbt=1.5.0
+[0m18:56:27.872475 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'log_cache_events': 'False', 'profiles_dir': '/home/juma/.dbt', 'no_print': 'None', 'cache_selected_only': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'log_path': 'logs', 'partial_parse': 'True', 'log_format': 'default', 'static_parser': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'target_path': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'debug': 'False', 'send_anonymous_usage_stats': 'True'}
+[0m18:56:27.873013 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/juma/ed-hackathon1/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:56:27.873724 [debug] [MainThread]: Command `dbt run` failed at 18:56:27.873572 after 0.04 seconds
+[0m18:56:27.874285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78201575f980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7820152ae570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7820152afe30>]}
+[0m18:56:27.874833 [debug] [MainThread]: Flushing usage events
+[0m01:34:51.502794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ab26ba730b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ab26bd046b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ab26bbf5850>]}
+
+
+============================== 01:34:51.562424 | 0bd0bf73-797c-4514-944b-4011e8253eb9 ==============================
+[0m01:34:51.562424 [info ] [MainThread]: Running with dbt=1.5.0
+[0m01:34:51.563692 [debug] [MainThread]: running dbt with arguments {'log_path': 'logs', 'profiles_dir': '/home/juma/.dbt', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'warn_error': 'None', 'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'use_experimental_parser': 'False', 'partial_parse': 'True', 'use_colors': 'True', 'quiet': 'False', 'fail_fast': 'False', 'cache_selected_only': 'False', 'debug': 'False', 'log_cache_events': 'False'}
+[0m01:34:51.564481 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/juma/ed-hackathon1/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:34:51.565529 [debug] [MainThread]: Command `dbt run` failed at 01:34:51.565319 after 0.07 seconds
+[0m01:34:51.566175 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ab26d05a840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ab26c3b1dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ab26bc9be00>]}
+[0m01:34:51.566814 [debug] [MainThread]: Flushing usage events

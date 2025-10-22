@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    database: postgres          # or leave default
+    schema: raw
+    tables:
+      - name: transactions_raw
+
+models:
+  - name: stg_sales
+    description: "Staging layer - normalized raw sales data"
